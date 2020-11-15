@@ -99,7 +99,7 @@ def miniMax(board):                               #miniMax function to find best
 def rcompMove():                                     #function for EASY level. Generated random legal actions
   move = 0
   center = 5
-  if (spaceIsFree(center))
+  if (spaceIsFree(center)):
     return center
   while not(spaceIsFree(move)) or (move == 0):
     move = int(random()*9)
@@ -117,7 +117,7 @@ def icompMove():                                      #function for intermediate
         return i
   else:
     for i in empty_spot_indices:
-    if(spaceIsFree(i))
+    if(spaceIsFree(i)):
         return i
 
 def compMove():
